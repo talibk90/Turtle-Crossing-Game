@@ -41,7 +41,8 @@ while game_is_on:
                 winsound.PlaySound(None, winsound.SND_PURGE)
                 winsound.PlaySound("hit.wav", winsound.SND_ASYNC)
                 turtle.pos_reset()
-                turtle.write("Press 'R' to Replay", align="center", font=("Times New Roman", 25, "normal"))
+                score.game_over()
+                turtle.write("Press 'R' to Replay", align="center", font=("Courier", 24, "normal"))
                 playing = False
 
         if turtle.is_completed():
