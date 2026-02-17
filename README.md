@@ -2,6 +2,9 @@
 
 A classic arcade-style game recreated in Python using the Turtle module. Help the turtle cross the busy road without getting hit by cars!
 
+![Turtle Game Demo](TurtleGame.gif)
+
+
 ## How to Play
 - **Move Up**: Press the `Up Arrow` key.
 - **Restart**: If you crash, press `R` to restart the game immediately.
